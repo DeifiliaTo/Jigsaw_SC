@@ -1,0 +1,332 @@
+cp: target '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_32/one/src' is not a directory
+Restoring modules from user's pangu, for system: "hk"
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/bin/python
+MASTER_ADDR=hkn0405
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+Rank 88: world_size 128, slurm_localid 0
+Rank 89: world_size 128, slurm_localid 1
+Rank 90: world_size 128, slurm_localid 2
+Rank 91: world_size 128, slurm_localid 3
+Rank 33: world_size 128, slurm_localid 1
+Rank 32: world_size 128, slurm_localid 0
+Rank 34: world_size 128, slurm_localid 2
+Rank 35: world_size 128, slurm_localid 3
+Rank 124: world_size 128, slurm_localid 0
+Rank 126: world_size 128, slurm_localid 2
+Rank 127: world_size 128, slurm_localid 3
+Rank 125: world_size 128, slurm_localid 1
+Rank 112: world_size 128, slurm_localid 0
+Rank 113: world_size 128, slurm_localid 1
+Rank 114: world_size 128, slurm_localid 2
+Rank 115: world_size 128, slurm_localid 3
+Rank 44: world_size 128, slurm_localid 0
+Rank 45: world_size 128, slurm_localid 1
+Rank 47: world_size 128, slurm_localid 3
+Rank 46: world_size 128, slurm_localid 2
+Rank 42: world_size 128, slurm_localid 2
+Rank 40: world_size 128, slurm_localid 0
+Rank 41: world_size 128, slurm_localid 1
+Rank 43: world_size 128, slurm_localid 3
+Rank 96: world_size 128, slurm_localid 0
+Rank 97: world_size 128, slurm_localid 1
+Rank 98: world_size 128, slurm_localid 2
+Rank 99: world_size 128, slurm_localid 3
+Rank 106: world_size 128, slurm_localid 2
+Rank 107: world_size 128, slurm_localid 3
+Rank 104: world_size 128, slurm_localid 0
+Rank 105: world_size 128, slurm_localid 1
+Rank 76: world_size 128, slurm_localid 0
+Rank 77: world_size 128, slurm_localid 1
+Rank 78: world_size 128, slurm_localid 2
+Rank 79: world_size 128, slurm_localid 3
+Rank 108: world_size 128, slurm_localid 0
+Rank 110: world_size 128, slurm_localid 2
+Rank 109: world_size 128, slurm_localid 1
+Rank 111: world_size 128, slurm_localid 3
+Rank 92: world_size 128, slurm_localid 0
+Rank 93: world_size 128, slurm_localid 1
+Rank 94: world_size 128, slurm_localid 2
+Rank 95: world_size 128, slurm_localid 3
+Rank 12: world_size 128, slurm_localid 0
+Rank 13: world_size 128, slurm_localid 1
+Rank 14: world_size 128, slurm_localid 2
+Rank 15: world_size 128, slurm_localid 3
+Rank 121: world_size 128, slurm_localid 1
+Rank 122: world_size 128, slurm_localid 2
+Rank 123: world_size 128, slurm_localid 3
+Rank 120: world_size 128, slurm_localid 0
+Rank 24: world_size 128, slurm_localid 0
+Rank 25: world_size 128, slurm_localid 1
+Rank 26: world_size 128, slurm_localid 2
+Rank 27: world_size 128, slurm_localid 3
+Rank 51: world_size 128, slurm_localid 3
+Rank 48: world_size 128, slurm_localid 0
+Rank 49: world_size 128, slurm_localid 1
+Rank 50: world_size 128, slurm_localid 2
+Rank 60: world_size 128, slurm_localid 0
+Rank 61: world_size 128, slurm_localid 1
+Rank 62: world_size 128, slurm_localid 2
+Rank 63: world_size 128, slurm_localid 3
+Rank 81: world_size 128, slurm_localid 1
+Rank 82: world_size 128, slurm_localid 2
+Rank 83: world_size 128, slurm_localid 3
+Rank 80: world_size 128, slurm_localid 0
+Rank 84: world_size 128, slurm_localid 0
+Rank 85: world_size 128, slurm_localid 1
+Rank 86: world_size 128, slurm_localid 2
+Rank 87: world_size 128, slurm_localid 3
+Rank 117: world_size 128, slurm_localid 1
+Rank 119: world_size 128, slurm_localid 3
+Rank 116: world_size 128, slurm_localid 0
+Rank 118: world_size 128, slurm_localid 2
+Rank 20: world_size 128, slurm_localid 0
+Rank 21: world_size 128, slurm_localid 1
+Rank 22: world_size 128, slurm_localid 2
+Rank 23: world_size 128, slurm_localid 3
+Rank 29: world_size 128, slurm_localid 1
+Rank 30: world_size 128, slurm_localid 2
+Rank 28: world_size 128, slurm_localid 0
+Rank 31: world_size 128, slurm_localid 3
+Rank 101: world_size 128, slurm_localid 1
+Rank 100: world_size 128, slurm_localid 0
+Rank 103: world_size 128, slurm_localid 3
+Rank 102: world_size 128, slurm_localid 2
+Rank 57: world_size 128, slurm_localid 1
+Rank 58: world_size 128, slurm_localid 2
+Rank 56: world_size 128, slurm_localid 0
+Rank 59: world_size 128, slurm_localid 3
+Rank 36: world_size 128, slurm_localid 0
+Rank 37: world_size 128, slurm_localid 1
+Rank 38: world_size 128, slurm_localid 2
+Rank 39: world_size 128, slurm_localid 3
+Rank 52: world_size 128, slurm_localid 0
+Rank 53: world_size 128, slurm_localid 1
+Rank 54: world_size 128, slurm_localid 2
+Rank 55: world_size 128, slurm_localid 3
+Rank 69: world_size 128, slurm_localid 1
+Rank 68: world_size 128, slurm_localid 0
+Rank 71: world_size 128, slurm_localid 3
+Rank 70: world_size 128, slurm_localid 2
+Rank 72: world_size 128, slurm_localid 0
+Rank 73: world_size 128, slurm_localid 1
+Rank 74: world_size 128, slurm_localid 2
+Rank 75: world_size 128, slurm_localid 3
+Rank 64: world_size 128, slurm_localid 0
+Rank 65: world_size 128, slurm_localid 1
+Rank 66: world_size 128, slurm_localid 2
+Rank 67: world_size 128, slurm_localid 3
+Rank 19: world_size 128, slurm_localid 3
+Rank 16: world_size 128, slurm_localid 0
+Rank 17: world_size 128, slurm_localid 1
+Rank 18: world_size 128, slurm_localid 2
+Rank 9: world_size 128, slurm_localid 1
+Rank 10: world_size 128, slurm_localid 2
+Rank 11: world_size 128, slurm_localid 3
+Rank 8: world_size 128, slurm_localid 0
+Rank 4: world_size 128, slurm_localid 0
+Rank 5: world_size 128, slurm_localid 1
+Rank 6: world_size 128, slurm_localid 2
+Rank 7: world_size 128, slurm_localid 3
+Rank 1: world_size 128, slurm_localid 1
+Rank 2: world_size 128, slurm_localid 2
+Rank 3: world_size 128, slurm_localid 3
+Rank 0: world_size 128, slurm_localid 0
+Rank 109/128: Process group initialized with torch rank 109 and torch world size 128.
+Rank 92/128: Process group initialized with torch rank 92 and torch world size 128.
+Rank 112/128: Process group initialized with torch rank 112 and torch world size 128.
+Rank 126/128: Process group initialized with torch rank 126 and torch world size 128.
+Rank 12/128: Process group initialized with torch rank 12 and torch world size 128.
+Rank 122/128: Process group initialized with torch rank 122 and torch world size 128.
+Rank 123/128: Process group initialized with torch rank 123 and torch world size 128.
+Rank 121/128: Process group initialized with torch rank 121 and torch world size 128.
+Rank 107/128: Process group initialized with torch rank 107 and torch world size 128.
+Rank 16/128: Process group initialized with torch rank 16 and torch world size 128.
+Rank 52/128: Process group initialized with torch rank 52 and torch world size 128.
+Rank 120/128: Process group initialized with torch rank 120 and torch world size 128.
+Rank 88/128: Process group initialized with torch rank 88 and torch world size 128.
+Rank 96/128: Process group initialized with torch rank 96 and torch world size 128.
+Rank 125/128: Process group initialized with torch rank 125 and torch world size 128.
+Rank 34/128: Process group initialized with torch rank 34 and torch world size 128.
+Rank 56/128: Process group initialized with torch rank 56 and torch world size 128.
+Rank 48/128: Process group initialized with torch rank 48 and torch world size 128.
+Rank 124/128: Process group initialized with torch rank 124 and torch world size 128.
+Rank 28/128: Process group initialized with torch rank 28 and torch world size 128.
+Rank 26/128: Process group initialized with torch rank 26 and torch world size 128.
+Rank 27/128: Process group initialized with torch rank 27 and torch world size 128.
+Rank 25/128: Process group initialized with torch rank 25 and torch world size 128.
+Rank 60/128: Process group initialized with torch rank 60 and torch world size 128.
+Rank 95/128: Process group initialized with torch rank 95 and torch world size 128.
+Rank 116/128: Process group initialized with torch rank 116 and torch world size 128.
+Rank 72/128: Process group initialized with torch rank 72 and torch world size 128.
+Rank 35/128: Process group initialized with torch rank 35 and torch world size 128.
+Rank 93/128: Process group initialized with torch rank 93 and torch world size 128.
+Rank 33/128: Process group initialized with torch rank 33 and torch world size 128.
+Rank 127/128: Process group initialized with torch rank 127 and torch world size 128.
+Rank 114/128: Process group initialized with torch rank 114 and torch world size 128.
+Rank 79/128: Process group initialized with torch rank 79 and torch world size 128.
+Rank 42/128: Process group initialized with torch rank 42 and torch world size 128.
+Rank 106/128: Process group initialized with torch rank 106 and torch world size 128.
+Rank 90/128: Process group initialized with torch rank 90 and torch world size 128.
+Rank 43/128: Process group initialized with torch rank 43 and torch world size 128.
+Rank 81/128: Process group initialized with torch rank 81 and torch world size 128.
+Rank 83/128: Process group initialized with torch rank 83 and torch world size 128.
+Rank 82/128: Process group initialized with torch rank 82 and torch world size 128.
+Rank 103/128: Process group initialized with torch rank 103 and torch world size 128.
+Rank 101/128: Process group initialized with torch rank 101 and torch world size 128.
+Rank 110/128: Process group initialized with torch rank 110 and torch world size 128.
+Rank 102/128: Process group initialized with torch rank 102 and torch world size 128.
+Rank 49/128: Process group initialized with torch rank 49 and torch world size 128.
+Rank 108/128: Process group initialized with torch rank 108 and torch world size 128.
+Rank 85/128: Process group initialized with torch rank 85 and torch world size 128.
+Rank 87/128: Process group initialized with torch rank 87 and torch world size 128.
+Rank 80/128: Process group initialized with torch rank 80 and torch world size 128.
+Rank 21/128: Process group initialized with torch rank 21 and torch world size 128.
+Rank 22/128: Process group initialized with torch rank 22 and torch world size 128.
+Rank 23/128: Process group initialized with torch rank 23 and torch world size 128.
+Rank 51/128: Process group initialized with torch rank 51 and torch world size 128.
+Rank 100/128: Process group initialized with torch rank 100 and torch world size 128.
+Rank 86/128: Process group initialized with torch rank 86 and torch world size 128.
+Rank 37/128: Process group initialized with torch rank 37 and torch world size 128.
+Rank 70/128: Process group initialized with torch rank 70 and torch world size 128.
+Rank 71/128: Process group initialized with torch rank 71 and torch world size 128.
+Rank 69/128: Process group initialized with torch rank 69 and torch world size 128.
+Rank 39/128: Process group initialized with torch rank 39 and torch world size 128.
+Rank 38/128: Process group initialized with torch rank 38 and torch world size 128.
+Rank 50/128: Process group initialized with torch rank 50 and torch world size 128.
+Rank 65/128: Process group initialized with torch rank 65 and torch world size 128.
+Rank 66/128: Process group initialized with torch rank 66 and torch world size 128.
+Rank 75/128: Process group initialized with torch rank 75 and torch world size 128.
+Rank 74/128: Process group initialized with torch rank 74 and torch world size 128.
+Rank 67/128: Process group initialized with torch rank 67 and torch world size 128.
+Rank 73/128: Process group initialized with torch rank 73 and torch world size 128.
+Rank 45/128: Process group initialized with torch rank 45 and torch world size 128.
+Rank 30/128: Process group initialized with torch rank 30 and torch world size 128.
+Rank 119/128: Process group initialized with torch rank 119 and torch world size 128.
+Rank 118/128: Process group initialized with torch rank 118 and torch world size 128.
+Rank 32/128: Process group initialized with torch rank 32 and torch world size 128.
+Rank 104/128: Process group initialized with torch rank 104 and torch world size 128.
+Rank 62/128: Process group initialized with torch rank 62 and torch world size 128.
+Rank 54/128: Process group initialized with torch rank 54 and torch world size 128.
+Rank 53/128: Process group initialized with torch rank 53 and torch world size 128.
+Rank 44/128: Process group initialized with torch rank 44 and torch world size 128.
+Rank 68/128: Process group initialized with torch rank 68 and torch world size 128.
+Rank 117/128: Process group initialized with torch rank 117 and torch world size 128.
+Rank 55/128: Process group initialized with torch rank 55 and torch world size 128.
+Rank 20/128: Process group initialized with torch rank 20 and torch world size 128.
+Rank 113/128: Process group initialized with torch rank 113 and torch world size 128.
+Rank 58/128: Process group initialized with torch rank 58 and torch world size 128.
+Rank 29/128: Process group initialized with torch rank 29 and torch world size 128.
+Rank 78/128: Process group initialized with torch rank 78 and torch world size 128.
+Rank 57/128: Process group initialized with torch rank 57 and torch world size 128.
+Rank 31/128: Process group initialized with torch rank 31 and torch world size 128.
+Rank 61/128: Process group initialized with torch rank 61 and torch world size 128.
+Rank 63/128: Process group initialized with torch rank 63 and torch world size 128.
+Rank 10/128: Process group initialized with torch rank 10 and torch world size 128.
+Rank 13/128: Process group initialized with torch rank 13 and torch world size 128.
+Rank 15/128: Process group initialized with torch rank 15 and torch world size 128.
+Rank 14/128: Process group initialized with torch rank 14 and torch world size 128.
+Rank 7/128: Process group initialized with torch rank 7 and torch world size 128.
+Rank 5/128: Process group initialized with torch rank 5 and torch world size 128.
+Rank 6/128: Process group initialized with torch rank 6 and torch world size 128.
+Rank 59/128: Process group initialized with torch rank 59 and torch world size 128.
+Rank 9/128: Process group initialized with torch rank 9 and torch world size 128.
+Rank 11/128: Process group initialized with torch rank 11 and torch world size 128.
+Rank 4/128: Process group initialized with torch rank 4 and torch world size 128.
+Rank 111/128: Process group initialized with torch rank 111 and torch world size 128.
+Rank 89/128: Process group initialized with torch rank 89 and torch world size 128.
+Rank 84/128: Process group initialized with torch rank 84 and torch world size 128.
+Rank 64/128: Process group initialized with torch rank 64 and torch world size 128.
+Rank 19/128: Process group initialized with torch rank 19 and torch world size 128.
+Rank 17/128: Process group initialized with torch rank 17 and torch world size 128.
+Rank 1/128: Process group initialized with torch rank 1 and torch world size 128.
+Rank 18/128: Process group initialized with torch rank 18 and torch world size 128.
+Rank 36/128: Process group initialized with torch rank 36 and torch world size 128.
+Rank 2/128: Process group initialized with torch rank 2 and torch world size 128.
+Rank 3/128: Process group initialized with torch rank 3 and torch world size 128.
+Rank 41/128: Process group initialized with torch rank 41 and torch world size 128.
+Rank 97/128: Process group initialized with torch rank 97 and torch world size 128.
+Rank 8/128: Process group initialized with torch rank 8 and torch world size 128.
+Rank 46/128: Process group initialized with torch rank 46 and torch world size 128.
+Rank 77/128: Process group initialized with torch rank 77 and torch world size 128.
+Rank 94/128: Process group initialized with torch rank 94 and torch world size 128.
+Rank 40/128: Process group initialized with torch rank 40 and torch world size 128.
+Rank 91/128: Process group initialized with torch rank 91 and torch world size 128.
+Rank 98/128: Process group initialized with torch rank 98 and torch world size 128.
+Rank 115/128: Process group initialized with torch rank 115 and torch world size 128.
+Rank 24/128: Process group initialized with torch rank 24 and torch world size 128.
+Rank 99/128: Process group initialized with torch rank 99 and torch world size 128.
+Rank 76/128: Process group initialized with torch rank 76 and torch world size 128.
+Rank 47/128: Process group initialized with torch rank 47 and torch world size 128.
+Rank 105/128: Process group initialized with torch rank 105 and torch world size 128.
+Rank 0/128: Process group initialized with torch rank 0 and torch world size 128.
+Training parameters {'lr': 0.0001, 'lr_embedding': 2e-05, 'lr_recovery': 2e-05, 'loss': 'L2', 'lr_constant': False, 'train_batch': 1, 'valid_batch': 1, 'identity': False, 'grad_clip': 1, 'save_dir': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/equivalent_usage/larger_dataset/one', 'preload': False, 'file_path': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/equivalent_usage/larger_dataset/one', 'load_path': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/equivalent_usage/larger_dataset/one/model_0.pt', 'area_weighted': True, 'print': False, 'tf32': True}
+Model parameters {'hidden_dim': 4320, 'spatial_hidden_dim_fraction': 0.5, 'features_hidden_dim_fraction': 1, 'mixing_blocks': 3, 'model_parallel': False, 'patch_size': 60, 'stride': 60, 'add': False, 'positional_encoding': False, 'patch_embed': 1, 'latent_rollout': 1, 'upt': False, 'concat': True, 'linear_residual': True, 'dropout': 0.001}
+Training subset size 12800
+Reading from /hkfs/work/workspace/scratch/ke4365-era5_data/era5_subset.zarr
+model has 1062.380154 million parameters
+Estimated forward TFLOPs and GB_COMM: 13.565698672392001, 2.2768832445144653
+Epoch 0 time [min]: 2.3966815104166668
+Epoch 1 time [min]: 2.100240625
+Epoch 2 time [min]: 2.0428243489583333
+Epoch 3 time [min]: 2.0526514322916665
+Epoch 4 time [min]: 2.0083907552083335
+Epoch 5 time [min]: 1.95056953125
+Epoch 6 time [min]: 2.004743619791667
+Epoch 7 time [min]: 2.05715703125
+Epoch 8 time [min]: 2.0667430989583333
+Epoch 9 time [min]: 2.0858197916666668
+Epoch 10 time [min]: 2.0612774739583335
+Average epoch time is 2.0751908380681816
+Std epoch time is 0.1092112337080574
+
+============================= JOB FEEDBACK =============================
+
+Job ID: 3000691
+Cluster: hk
+User/Group: ke4365/hk-project-epais
+Account: hk-project-p0021348
+State: COMPLETED (exit code 0)
+Partition: accelerated
+Nodes: 32
+Cores per node: 152
+Nodelist: hkn[0405-0406,0410,0413,0436,0501,0504-0510,0512-0513,0515-0520,0604,0719,0723-0726,0733,0735,0812,0814-0815]
+CPU Utilized: 8-23:02:37
+CPU Efficiency: 10.77% of 83-04:56:32 core-walltime
+Job Wall-clock time: 00:24:38
+Starttime: Thu Mar 20 14:31:08 2025
+Endtime: Thu Mar 20 14:55:46 2025
+Memory Utilized: 7.95 TB (estimated maximum)
+Memory Efficiency: 0.00% of 0.00 MB (0.00 MB/node)
+Energy Consumed: 63320922 Joule / 17589.145 Watthours
+Average node power draw: 42842.301759134 Watt

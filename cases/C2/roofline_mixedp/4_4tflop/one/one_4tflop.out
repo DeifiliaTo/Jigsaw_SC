@@ -1,0 +1,49 @@
+cp: target '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/strong_scaling/4_4tflop/one/src' is not a directory
+Restoring modules from user's pangu, for system: "hk"
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/bin/python
+MASTER_ADDR=hkn0734
+GpuFreq=control_disabled
+Rank 0: world_size 1, slurm_localid 0
+Rank 0/1: Process group initialized with torch rank 0 and torch world size 1.
+Training parameters {'lr': 0.0001, 'lr_embedding': 2e-05, 'lr_recovery': 2e-05, 'loss': 'L2', 'lr_constant': False, 'train_batch': 1, 'valid_batch': 1, 'identity': False, 'grad_clip': 10, 'save_dir': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/strong_scaling/hundred_million/one', 'preload': False, 'file_path': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/strong_scaling/hundred_million/one', 'load_path': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/strong_scaling/hunderd_million/one', 'area_weighted': True, 'print': True, 'tf32': True}
+Model parameters {'hidden_dim': 2192, 'spatial_hidden_dim_fraction': 0.25, 'features_hidden_dim_fraction': 1, 'mixing_blocks': 3, 'model_parallel': False, 'patch_size': 60, 'stride': 60, 'add': False, 'positional_encoding': False, 'patch_embed': 1, 'latent_rollout': 1, 'upt': False, 'concat': True, 'linear_residual': True, 'dropout': 0.001}
+Training subset size 1250
+Reading from /hkfs/work/workspace/scratch/ke4365-era5_data/era5_subset.zarr
+model has 504.46689 million parameters
+Estimated forward TFLOPs and GB_COMM: 3.9630232090159994, 1.199349045753479
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/strong_scaling/hunderd_million/one'
+Initializing model from scratch
+Epoch 0 time [min]: 6.740686458333333
+Epoch 1 time [min]: 6.595635416666667
+Epoch 2 time [min]: 6.590180729166667
+Epoch 3 time [min]: 6.609291145833334
+Epoch 4 time [min]: 6.621370312500001
+Epoch 5 time [min]: 6.595384375
+Epoch 6 time [min]: 6.602909374999999
+Epoch 7 time [min]: 6.567668229166667
+Epoch 8 time [min]: 6.601160416666667
+Epoch 9 time [min]: 6.6204765625
+Epoch 10 time [min]: 6.586391145833333
+Average epoch time is 6.611923106060605
+Std epoch time is 0.04324175884297306
+
+============================= JOB FEEDBACK =============================
+
+Job ID: 2986960
+Cluster: hk
+User/Group: ke4365/hk-project-epais
+Account: hk-project-p0021348
+State: COMPLETED (exit code 0)
+Partition: accelerated
+Nodes: 1
+Cores per node: 152
+Nodelist: hkn0734
+CPU Utilized: 13:12:42
+CPU Efficiency: 7.07% of 7-18:50:00 core-walltime
+Job Wall-clock time: 01:13:45
+Starttime: Sat Mar 15 14:54:25 2025
+Endtime: Sat Mar 15 16:08:10 2025
+Memory Utilized: 60.19 GB
+Memory Efficiency: 0.00% of 0.00 MB
+Energy Consumed: 4031429 Joule / 1119.84138888889 Watthours
+Average node power draw: 911.057401129944 Watt

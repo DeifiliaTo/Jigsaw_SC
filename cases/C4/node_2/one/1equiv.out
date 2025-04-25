@@ -1,0 +1,62 @@
+cp: target '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_2/one/src' is not a directory
+Restoring modules from user's pangu, for system: "hk"
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/bin/python
+MASTER_ADDR=hkn0811
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+Rank 4: world_size 8, slurm_localid 0
+Rank 5: world_size 8, slurm_localid 1
+Rank 6: world_size 8, slurm_localid 2
+Rank 7: world_size 8, slurm_localid 3
+Rank 0: world_size 8, slurm_localid 0
+Rank 1: world_size 8, slurm_localid 1
+Rank 2: world_size 8, slurm_localid 2
+Rank 3: world_size 8, slurm_localid 3
+Rank 5/8: Process group initialized with torch rank 5 and torch world size 8.
+Rank 6/8: Process group initialized with torch rank 6 and torch world size 8.
+Rank 7/8: Process group initialized with torch rank 7 and torch world size 8.
+Rank 1/8: Process group initialized with torch rank 1 and torch world size 8.
+Rank 2/8: Process group initialized with torch rank 2 and torch world size 8.
+Rank 4/8: Process group initialized with torch rank 4 and torch world size 8.
+Rank 3/8: Process group initialized with torch rank 3 and torch world size 8.
+Rank 0/8: Process group initialized with torch rank 0 and torch world size 8.
+Training parameters {'lr': 0.0001, 'lr_embedding': 2e-05, 'lr_recovery': 2e-05, 'loss': 'L2', 'lr_constant': False, 'train_batch': 1, 'valid_batch': 1, 'identity': False, 'grad_clip': 1, 'save_dir': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/equivalent_usage/larger_dataset/one', 'preload': False, 'file_path': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/equivalent_usage/larger_dataset/one', 'load_path': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/equivalent_usage/larger_dataset/one/model_0.pt', 'area_weighted': True, 'print': False, 'tf32': True}
+Model parameters {'hidden_dim': 4320, 'spatial_hidden_dim_fraction': 0.5, 'features_hidden_dim_fraction': 1, 'mixing_blocks': 3, 'model_parallel': False, 'patch_size': 60, 'stride': 60, 'add': False, 'positional_encoding': False, 'patch_embed': 1, 'latent_rollout': 1, 'upt': False, 'concat': True, 'linear_residual': True, 'dropout': 0.001}
+Training subset size 800
+Reading from /hkfs/work/workspace/scratch/ke4365-era5_data/era5_subset.zarr
+model has 1062.380154 million parameters
+Estimated forward TFLOPs and GB_COMM: 13.565698672392001, 2.2768832445144653
+Epoch 0 time [min]: 1.8979673177083332
+Epoch 1 time [min]: 1.710334375
+Epoch 2 time [min]: 1.7139850260416667
+Epoch 3 time [min]: 1.71480859375
+Epoch 4 time [min]: 1.7313389322916668
+Epoch 5 time [min]: 1.7078782552083331
+Epoch 6 time [min]: 1.741836328125
+Epoch 7 time [min]: 1.7340845052083333
+Epoch 8 time [min]: 1.7202908854166667
+Epoch 9 time [min]: 1.72556484375
+Epoch 10 time [min]: 1.7256565104166666
+Average epoch time is 1.7385223248106059
+Std epoch time is 0.051406432401599866
+
+============================= JOB FEEDBACK =============================
+
+Job ID: 3000796
+Cluster: hk
+User/Group: ke4365/hk-project-epais
+Account: hk-project-p0021348
+State: COMPLETED (exit code 0)
+Partition: accelerated
+Nodes: 2
+Cores per node: 152
+Nodelist: hkn[0811-0812]
+CPU Utilized: 14:28:01
+CPU Efficiency: 13.49% of 4-11:14:40 core-walltime
+Job Wall-clock time: 00:21:10
+Starttime: Thu Mar 20 13:25:44 2025
+Endtime: Thu Mar 20 13:46:54 2025
+Memory Utilized: 507.64 GB (estimated maximum)
+Memory Efficiency: 0.00% of 0.00 MB (0.00 MB/node)
+Energy Consumed: 3398714 Joule / 944.087222222222 Watthours
+Average node power draw: 2676.15275590551 Watt

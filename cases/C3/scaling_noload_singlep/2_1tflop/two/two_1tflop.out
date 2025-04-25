@@ -1,0 +1,57 @@
+cp: target '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/fp32_noloading/2_1tflop/two/src' is not a directory
+Restoring modules from user's pangu, for system: "hk"
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/bin/python
+MASTER_ADDR=hkn0626
+GpuFreq=control_disabled
+Rank 0: world_size 2, slurm_localid 0
+Rank 1: world_size 2, slurm_localid 1
+Rank 1/2: Process group initialized with torch rank 1 and torch world size 2.
+Rank 0/2: Process group initialized with torch rank 0 and torch world size 2.
+Model parameters {'hidden_dim': 1024, 'spatial_hidden_dim_fraction': 0.125, 'features_hidden_dim_fraction': 0.25, 'mixing_blocks': 3, 'model_parallel': True, 'patch_size': 60, 'stride': 60, 'add': False, 'positional_encoding': False, 'patch_embed': 1, 'latent_rollout': 1, 'upt': False, 'concat': True, 'linear_residual': True, 'dropout': 0.001}
+Training subset size 500
+Reading from /hkfs/work/workspace/scratch/ke4365-era5_data/era5_subset.zarr
+model has 238.885416 million parameters
+Estimated forward TFLOPs and GB_COMM: 0.992984623096, 0.6307851076126099
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/strong_scaling/hunderd_million/one/model_0.pt'
+Initializing model from scratch
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/strong_scaling/hunderd_million/one/model_1.pt'
+Rank 0 running on CPU core: 0 Allocated GPU(s):, 0,1
+Rank 1 running on CPU core: 75 Allocated GPU(s):, 0,1
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+Epoch 0 time [min]: 1.4293268229166667
+Epoch 1 time [min]: 1.389728125
+Epoch 2 time [min]: 1.3897649739583333
+Epoch 3 time [min]: 1.3898395833333335
+Epoch 4 time [min]: 1.3888265625
+Epoch 5 time [min]: 1.3891720052083334
+Epoch 6 time [min]: 1.3894430989583335
+Epoch 7 time [min]: 1.388670703125
+Epoch 8 time [min]: 1.389398046875
+Epoch 9 time [min]: 1.409819140625
+Epoch 10 time [min]: 1.3943963541666666
+Average epoch time is 1.3953077651515151
+Std epoch time is 0.012260380092254957
+
+============================= JOB FEEDBACK =============================
+
+Job ID: 2972939
+Cluster: hk
+User/Group: ke4365/hk-project-epais
+Account: hk-project-p0021348
+State: COMPLETED (exit code 0)
+Partition: accelerated
+Nodes: 1
+Cores per node: 152
+Nodelist: hkn0626
+CPU Utilized: 01:03:39
+CPU Efficiency: 2.39% of 1-20:20:00 core-walltime
+Job Wall-clock time: 00:17:30
+Starttime: Sat Mar  8 17:21:52 2025
+Endtime: Sat Mar  8 17:39:22 2025
+Memory Utilized: 50.98 GB (estimated maximum)
+Memory Efficiency: 0.00% of 0.00 MB (0.00 MB/node)
+Energy Consumed: 1031248 Joule / 286.457777777778 Watthours
+Average node power draw: 982.140952380952 Watt

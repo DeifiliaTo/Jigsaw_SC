@@ -1,0 +1,58 @@
+cp: target '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two_small/src' is not a directory
+Restoring modules from user's pangu, for system: "hk"
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/bin/python
+MASTER_ADDR=hkn0705
+GpuFreq=control_disabled
+Rank 0: world_size 2, slurm_localid 0
+Rank 1: world_size 2, slurm_localid 1
+Rank 1/2: Process group initialized with torch rank 1 and torch world size 2.
+Rank 0/2: Process group initialized with torch rank 0 and torch world size 2.
+Training parameters {'lr': 0.0001, 'lr_embedding': 2e-05, 'lr_recovery': 2e-05, 'loss': 'L2', 'lr_constant': False, 'train_batch': 1, 'valid_batch': 1, 'identity': False, 'grad_clip': 1, 'save_dir': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two', 'preload': False, 'file_path': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two', 'load_path': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two', 'area_weighted': True, 'print': False, 'tf32': True}
+Model parameters {'hidden_dim': 8192, 'spatial_hidden_dim_fraction': 0.5, 'features_hidden_dim_fraction': 1, 'mixing_blocks': 3, 'model_parallel': True, 'patch_size': 60, 'stride': 60, 'add': False, 'positional_encoding': False, 'patch_embed': 1, 'latent_rollout': 1, 'upt': False, 'concat': True, 'linear_residual': True, 'dropout': 0.001}
+Training subset size 100
+Reading from /hkfs/work/workspace/scratch/ke4365-era5_data/era5_subset.zarr
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_1.pt'
+Rank 1 running on CPU core: 75 Allocated GPU(s):, 0,1
+model has 1404.881688 million parameters
+Estimated forward TFLOPs and GB_COMM: 32.282788102375996, 3.560186505317688
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_0.pt'
+Initializing model from scratch
+Rank 0 running on CPU core: 113 Allocated GPU(s):, 0,1
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+Epoch 0 time [min]: 1.2833145833333333
+Epoch 1 time [min]: 1.2340815104166665
+Epoch 2 time [min]: 1.2511696614583334
+Epoch 3 time [min]: 1.2390070312500001
+Epoch 4 time [min]: 1.255994921875
+Epoch 5 time [min]: 1.23096953125
+Epoch 6 time [min]: 1.2430908854166667
+Epoch 7 time [min]: 1.2504701822916668
+Epoch 8 time [min]: 1.244998828125
+Epoch 9 time [min]: 1.25531015625
+Epoch 10 time [min]: 1.2275986979166666
+Average epoch time is 1.243269140625
+Std epoch time is 0.009610669490813824
+
+============================= JOB FEEDBACK =============================
+
+Job ID: 3000544
+Cluster: hk
+User/Group: ke4365/hk-project-epais
+Account: hk-project-p0021348
+State: COMPLETED (exit code 0)
+Partition: accelerated
+Nodes: 1
+Cores per node: 152
+Nodelist: hkn0705
+CPU Utilized: 01:30:55
+CPU Efficiency: 4.02% of 1-13:42:16 core-walltime
+Job Wall-clock time: 00:14:53
+Starttime: Thu Mar 20 10:48:07 2025
+Endtime: Thu Mar 20 11:03:00 2025
+Memory Utilized: 71.07 GB (estimated maximum)
+Memory Efficiency: 0.00% of 0.00 MB (0.00 MB/node)
+Energy Consumed: 919027 Joule / 255.285277777778 Watthours
+Average node power draw: 1029.14557670773 Watt

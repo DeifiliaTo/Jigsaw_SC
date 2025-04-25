@@ -1,0 +1,116 @@
+cp: target '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_32/one/src' is not a directory
+Restoring modules from user's pangu, for system: "hk"
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/bin/python
+MASTER_ADDR=hkn0510
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+Rank 16: world_size 32, slurm_localid 0
+Rank 17: world_size 32, slurm_localid 1
+Rank 18: world_size 32, slurm_localid 2
+Rank 19: world_size 32, slurm_localid 3
+Rank 28: world_size 32, slurm_localid 0
+Rank 29: world_size 32, slurm_localid 1
+Rank 30: world_size 32, slurm_localid 2
+Rank 31: world_size 32, slurm_localid 3
+Rank 20: world_size 32, slurm_localid 0
+Rank 21: world_size 32, slurm_localid 1
+Rank 22: world_size 32, slurm_localid 2
+Rank 23: world_size 32, slurm_localid 3
+Rank 0: world_size 32, slurm_localid 0
+Rank 1: world_size 32, slurm_localid 1
+Rank 2: world_size 32, slurm_localid 2
+Rank 3: world_size 32, slurm_localid 3
+Rank 5: world_size 32, slurm_localid 1
+Rank 6: world_size 32, slurm_localid 2
+Rank 4: world_size 32, slurm_localid 0
+Rank 7: world_size 32, slurm_localid 3
+Rank 28/32: Process group initialized with torch rank 28 and torch world size 32.
+Rank 31/32: Process group initialized with torch rank 31 and torch world size 32.
+Rank 17/32: Process group initialized with torch rank 17 and torch world size 32.
+Rank 18/32: Process group initialized with torch rank 18 and torch world size 32.
+Rank 29/32: Process group initialized with torch rank 29 and torch world size 32.
+Rank 30/32: Process group initialized with torch rank 30 and torch world size 32.
+Rank 19/32: Process group initialized with torch rank 19 and torch world size 32.
+Rank 9: world_size 32, slurm_localid 1
+Rank 11: world_size 32, slurm_localid 3
+Rank 8: world_size 32, slurm_localid 0
+Rank 10: world_size 32, slurm_localid 2
+Rank 20/32: Process group initialized with torch rank 20 and torch world size 32.
+Rank 22/32: Process group initialized with torch rank 22 and torch world size 32.
+Rank 23/32: Process group initialized with torch rank 23 and torch world size 32.
+Rank 3/32: Process group initialized with torch rank 3 and torch world size 32.
+Rank 21/32: Process group initialized with torch rank 21 and torch world size 32.
+Rank 2/32: Process group initialized with torch rank 2 and torch world size 32.
+Rank 1/32: Process group initialized with torch rank 1 and torch world size 32.
+Rank 16/32: Process group initialized with torch rank 16 and torch world size 32.
+Rank 4/32: Process group initialized with torch rank 4 and torch world size 32.
+Rank 8/32: Process group initialized with torch rank 8 and torch world size 32.
+Rank 6/32: Process group initialized with torch rank 6 and torch world size 32.
+Rank 5/32: Process group initialized with torch rank 5 and torch world size 32.
+Rank 7/32: Process group initialized with torch rank 7 and torch world size 32.
+Rank 11/32: Process group initialized with torch rank 11 and torch world size 32.
+Rank 9/32: Process group initialized with torch rank 9 and torch world size 32.
+Rank 10/32: Process group initialized with torch rank 10 and torch world size 32.
+Rank 26: world_size 32, slurm_localid 2
+Rank 27: world_size 32, slurm_localid 3
+Rank 25: world_size 32, slurm_localid 1
+Rank 24: world_size 32, slurm_localid 0
+Rank 24/32: Process group initialized with torch rank 24 and torch world size 32.
+Rank 27/32: Process group initialized with torch rank 27 and torch world size 32.
+Rank 26/32: Process group initialized with torch rank 26 and torch world size 32.
+Rank 25/32: Process group initialized with torch rank 25 and torch world size 32.
+Rank 12: world_size 32, slurm_localid 0
+Rank 13: world_size 32, slurm_localid 1
+Rank 14: world_size 32, slurm_localid 2
+Rank 15: world_size 32, slurm_localid 3
+Rank 12/32: Process group initialized with torch rank 12 and torch world size 32.
+Rank 13/32: Process group initialized with torch rank 13 and torch world size 32.
+Rank 14/32: Process group initialized with torch rank 14 and torch world size 32.
+Rank 15/32: Process group initialized with torch rank 15 and torch world size 32.
+Rank 0/32: Process group initialized with torch rank 0 and torch world size 32.
+Training parameters {'lr': 0.0001, 'lr_embedding': 2e-05, 'lr_recovery': 2e-05, 'loss': 'L2', 'lr_constant': False, 'train_batch': 1, 'valid_batch': 1, 'identity': False, 'grad_clip': 1, 'save_dir': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/equivalent_usage/larger_dataset/one', 'preload': False, 'file_path': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/equivalent_usage/larger_dataset/one', 'load_path': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/equivalent_usage/larger_dataset/one/model_0.pt', 'area_weighted': True, 'print': False, 'tf32': True}
+Model parameters {'hidden_dim': 4320, 'spatial_hidden_dim_fraction': 0.5, 'features_hidden_dim_fraction': 1, 'mixing_blocks': 3, 'model_parallel': False, 'patch_size': 60, 'stride': 60, 'add': False, 'positional_encoding': False, 'patch_embed': 1, 'latent_rollout': 1, 'upt': False, 'concat': True, 'linear_residual': True, 'dropout': 0.001}
+Training subset size 3200
+Reading from /hkfs/work/workspace/scratch/ke4365-era5_data/era5_subset.zarr
+model has 1062.380154 million parameters
+Estimated forward TFLOPs and GB_COMM: 13.565698672392001, 2.2768832445144653
+Epoch 0 time [min]: 2.0895231770833336
+Epoch 1 time [min]: 1.7875708333333333
+Epoch 2 time [min]: 1.7776635416666666
+Epoch 3 time [min]: 1.76889375
+Epoch 4 time [min]: 1.78256953125
+Epoch 5 time [min]: 1.76615859375
+Epoch 6 time [min]: 1.7859283854166668
+Epoch 7 time [min]: 1.7806065104166668
+Epoch 8 time [min]: 1.7859101562500002
+Epoch 9 time [min]: 1.7743565104166668
+Epoch 10 time [min]: 1.8018037760416665
+Average epoch time is 1.8091804332386365
+Std epoch time is 0.08913734661102601
+
+============================= JOB FEEDBACK =============================
+
+Job ID: 2999852
+Cluster: hk
+User/Group: ke4365/hk-project-epais
+Account: hk-project-p0021348
+State: COMPLETED (exit code 0)
+Partition: accelerated
+Nodes: 8
+Cores per node: 152
+Nodelist: hkn[0510-0511,0516,0519,0616,0724-0725,0735]
+CPU Utilized: 2-11:38:39
+CPU Efficiency: 13.44% of 18-11:50:24 core-walltime
+Job Wall-clock time: 00:21:54
+Starttime: Wed Mar 19 22:20:35 2025
+Endtime: Wed Mar 19 22:42:29 2025
+Memory Utilized: 2.05 TB (estimated maximum)
+Memory Efficiency: 0.00% of 0.00 MB (0.00 MB/node)
+Energy Consumed: 13988383 Joule / 3885.66194444444 Watthours
+Average node power draw: 10645.6491628615 Watt

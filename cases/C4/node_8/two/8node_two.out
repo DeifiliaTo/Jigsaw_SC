@@ -1,0 +1,245 @@
+cp: target '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_8/two/src' is not a directory
+Restoring modules from user's pangu, for system: "hk"
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/bin/python
+MASTER_ADDR=hkn0501
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+Rank 20: world_size 32, slurm_localid 0
+Rank 22: world_size 32, slurm_localid 2
+Rank 23: world_size 32, slurm_localid 3
+Rank 21: world_size 32, slurm_localid 1
+Rank 9: world_size 32, slurm_localid 1
+Rank 10: world_size 32, slurm_localid 2
+Rank 8: world_size 32, slurm_localid 0
+Rank 11: world_size 32, slurm_localid 3
+Rank 0: world_size 32, slurm_localid 0
+Rank 1: world_size 32, slurm_localid 1
+Rank 2: world_size 32, slurm_localid 2
+Rank 3: world_size 32, slurm_localid 3
+Rank 31: world_size 32, slurm_localid 3
+Rank 29: world_size 32, slurm_localid 1
+Rank 30: world_size 32, slurm_localid 2
+Rank 28: world_size 32, slurm_localid 0
+Rank 24: world_size 32, slurm_localid 0
+Rank 25: world_size 32, slurm_localid 1
+Rank 26: world_size 32, slurm_localid 2
+Rank 27: world_size 32, slurm_localid 3
+Rank 17: world_size 32, slurm_localid 1
+Rank 16: world_size 32, slurm_localid 0
+Rank 18: world_size 32, slurm_localid 2
+Rank 19: world_size 32, slurm_localid 3
+Rank 12: world_size 32, slurm_localid 0
+Rank 13: world_size 32, slurm_localid 1
+Rank 14: world_size 32, slurm_localid 2
+Rank 15: world_size 32, slurm_localid 3
+Rank 7: world_size 32, slurm_localid 3
+Rank 4: world_size 32, slurm_localid 0
+Rank 5: world_size 32, slurm_localid 1
+Rank 6: world_size 32, slurm_localid 2
+Rank 8/32: Process group initialized with torch rank 8 and torch world size 32.
+Rank 28/32: Process group initialized with torch rank 28 and torch world size 32.
+Rank 20/32: Process group initialized with torch rank 20 and torch world size 32.
+Rank 24/32: Process group initialized with torch rank 24 and torch world size 32.
+Rank 16/32: Process group initialized with torch rank 16 and torch world size 32.
+Rank 2/32: Process group initialized with torch rank 2 and torch world size 32.
+Rank 1/32: Process group initialized with torch rank 1 and torch world size 32.
+Rank 3/32: Process group initialized with torch rank 3 and torch world size 32.
+Rank 23/32: Process group initialized with torch rank 23 and torch world size 32.
+Rank 21/32: Process group initialized with torch rank 21 and torch world size 32.
+Rank 22/32: Process group initialized with torch rank 22 and torch world size 32.
+Rank 11/32: Process group initialized with torch rank 11 and torch world size 32.
+Rank 10/32: Process group initialized with torch rank 10 and torch world size 32.
+Rank 9/32: Process group initialized with torch rank 9 and torch world size 32.
+Rank 12/32: Process group initialized with torch rank 12 and torch world size 32.
+Rank 31/32: Process group initialized with torch rank 31 and torch world size 32.
+Rank 29/32: Process group initialized with torch rank 29 and torch world size 32.
+Rank 30/32: Process group initialized with torch rank 30 and torch world size 32.
+Rank 4/32: Process group initialized with torch rank 4 and torch world size 32.
+Rank 27/32: Process group initialized with torch rank 27 and torch world size 32.
+Rank 25/32: Process group initialized with torch rank 25 and torch world size 32.
+Rank 26/32: Process group initialized with torch rank 26 and torch world size 32.
+Rank 18/32: Process group initialized with torch rank 18 and torch world size 32.
+Rank 19/32: Process group initialized with torch rank 19 and torch world size 32.
+Rank 17/32: Process group initialized with torch rank 17 and torch world size 32.
+Rank 13/32: Process group initialized with torch rank 13 and torch world size 32.
+Rank 15/32: Process group initialized with torch rank 15 and torch world size 32.
+Rank 14/32: Process group initialized with torch rank 14 and torch world size 32.
+Rank 7/32: Process group initialized with torch rank 7 and torch world size 32.
+Rank 5/32: Process group initialized with torch rank 5 and torch world size 32.
+Rank 6/32: Process group initialized with torch rank 6 and torch world size 32.
+Rank 0/32: Process group initialized with torch rank 0 and torch world size 32.
+Training parameters {'lr': 0.0001, 'lr_embedding': 2e-05, 'lr_recovery': 2e-05, 'loss': 'L2', 'lr_constant': False, 'train_batch': 1, 'valid_batch': 1, 'identity': False, 'grad_clip': 1, 'save_dir': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two', 'preload': False, 'file_path': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two', 'load_path': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two', 'area_weighted': True, 'print': False, 'tf32': True}
+Model parameters {'hidden_dim': 8192, 'spatial_hidden_dim_fraction': 0.5, 'features_hidden_dim_fraction': 1, 'mixing_blocks': 3, 'model_parallel': True, 'patch_size': 60, 'stride': 60, 'add': False, 'positional_encoding': False, 'patch_embed': 1, 'latent_rollout': 1, 'upt': False, 'concat': True, 'linear_residual': True, 'dropout': 0.001}
+Training subset size 1600
+Reading from /hkfs/work/workspace/scratch/ke4365-era5_data/era5_subset.zarr
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_1.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_1.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_1.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_1.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_0.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_0.pt'
+Rank 3 running on CPU core: 1 Allocated GPU(s):, 0,1,2,3
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_0.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_1.pt'
+Rank 3 running on CPU core: 34 Allocated GPU(s):, 0,1,2,3
+Rank 0 running on CPU core: 39 Allocated GPU(s):, 0,1,2,3
+Rank 1 running on CPU core: 40 Allocated GPU(s):, 0,1,2,3
+Rank 2 running on CPU core: 45 Allocated GPU(s):, 0,1,2,3
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_0.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_1.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_0.pt'
+Rank 3 running on CPU core: 4 Allocated GPU(s):, 0,1,2,3
+Rank 0 running on CPU core: 41 Allocated GPU(s):, 0,1,2,3
+Rank 1 running on CPU core: 44 Allocated GPU(s):, 0,1,2,3
+Rank 1 running on CPU core: 117 Allocated GPU(s):, 0,1,2,3
+Rank 0 running on CPU core: 43 Allocated GPU(s):, 0,1,2,3
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_0.pt'
+Rank 2 running on CPU core: 38 Allocated GPU(s):, 0,1,2,3
+Rank 2 running on CPU core: 114 Allocated GPU(s):, 0,1,2,3
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_0.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_0.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_1.pt'
+Rank 0 running on CPU core: 42 Allocated GPU(s):, 0,1,2,3
+Rank 3 running on CPU core: 43 Allocated GPU(s):, 0,1,2,3
+Rank 2 running on CPU core: 0 Allocated GPU(s):, 0,1,2,3
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_1.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_1.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_0.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_1.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_0.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_0.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_1.pt'
+Rank 3 running on CPU core: 40 Allocated GPU(s):, 0,1,2,3
+Rank 0 running on CPU core: 44 Allocated GPU(s):, 0,1,2,3
+Rank 1 running on CPU core: 41 Allocated GPU(s):, 0,1,2,3
+Rank 1 running on CPU core: 40 Allocated GPU(s):, 0,1,2,3
+Rank 0 running on CPU core: 41 Allocated GPU(s):, 0,1,2,3
+Rank 2 running on CPU core: 121 Allocated GPU(s):, 0,1,2,3
+Rank 3 running on CPU core: 39 Allocated GPU(s):, 0,1,2,3
+model has 1404.881688 million parameters
+Estimated forward TFLOPs and GB_COMM: 32.282788102375996, 3.560186505317688
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_0.pt'
+Initializing model from scratch
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_1.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_0.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_1.pt'
+Rank 0 running on CPU core: 75 Allocated GPU(s):, 0,1,2,3
+Rank 2 running on CPU core: 117 Allocated GPU(s):, 0,1,2,3
+Rank 3 running on CPU core: 119 Allocated GPU(s):, 0,1,2,3
+Rank 1 running on CPU core: 0 Allocated GPU(s):, 0,1,2,3
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_1.pt'
+Rank 1 running on CPU core: 114 Allocated GPU(s):, 0,1,2,3
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_0.pt'
+Rank 2 running on CPU core: 39 Allocated GPU(s):, 0,1,2,3
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_0.pt'
+Rank 0 running on CPU core: 1 Allocated GPU(s):, 0,1,2,3
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_1.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_1.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_1/two/model_0.pt'
+Rank 3 running on CPU core: 39 Allocated GPU(s):, 0,1,2,3
+Rank 1 running on CPU core: 116 Allocated GPU(s):, 0,1,2,3
+Rank 2 running on CPU core: 114 Allocated GPU(s):, 0,1,2,3
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+Epoch 0 time [min]: 1.7476325520833333
+Epoch 1 time [min]: 1.7195802083333334
+Epoch 2 time [min]: 1.675102734375
+Epoch 3 time [min]: 1.6704641927083335
+Epoch 4 time [min]: 1.670601953125
+Epoch 5 time [min]: 1.6761563802083332
+Epoch 6 time [min]: 1.6685309895833333
+Epoch 7 time [min]: 1.6643759114583332
+Epoch 8 time [min]: 1.7139270833333333
+Epoch 9 time [min]: 1.6731532552083332
+Epoch 10 time [min]: 1.6768072916666665
+Average epoch time is 1.68087
+Std epoch time is 0.01833249586971075
+
+============================= JOB FEEDBACK =============================
+
+Job ID: 3000645
+Cluster: hk
+User/Group: ke4365/hk-project-epais
+Account: hk-project-p0021348
+State: COMPLETED (exit code 0)
+Partition: accelerated
+Nodes: 8
+Cores per node: 152
+Nodelist: hkn[0501,0504-0505,0507-0511]
+CPU Utilized: 1-15:49:05
+CPU Efficiency: 9.86% of 16-19:38:40 core-walltime
+Job Wall-clock time: 00:19:55
+Starttime: Thu Mar 20 11:27:07 2025
+Endtime: Thu Mar 20 11:47:02 2025
+Memory Utilized: 1.07 TB (estimated maximum)
+Memory Efficiency: 0.00% of 0.00 MB (0.00 MB/node)
+Energy Consumed: 13342125 Joule / 3706.14583333333 Watthours
+Average node power draw: 11164.9581589958 Watt

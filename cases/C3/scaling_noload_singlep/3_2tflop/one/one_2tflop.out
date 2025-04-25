@@ -1,0 +1,47 @@
+cp: target '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/fp32_noloading/3_2tflop/one/src' is not a directory
+Restoring modules from user's pangu, for system: "hk"
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/bin/python
+MASTER_ADDR=hkn0513
+GpuFreq=control_disabled
+Rank 0: world_size 1, slurm_localid 0
+Rank 0/1: Process group initialized with torch rank 0 and torch world size 1.
+Model parameters {'hidden_dim': 1600, 'spatial_hidden_dim_fraction': 0.125, 'features_hidden_dim_fraction': 1, 'mixing_blocks': 3, 'model_parallel': False, 'patch_size': 60, 'stride': 60, 'add': False, 'positional_encoding': False, 'patch_embed': 1, 'latent_rollout': 1, 'upt': False, 'concat': True, 'linear_residual': True, 'dropout': 0.001}
+Training subset size 500
+Reading from /hkfs/work/workspace/scratch/ke4365-era5_data/era5_subset.zarr
+model has 259.570794 million parameters
+Estimated forward TFLOPs and GB_COMM: 1.9854361315120002, 0.8209086656570435
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/strong_scaling/hunderd_million/one'
+Initializing model from scratch
+Epoch 0 time [min]: 3.8948981770833333
+Epoch 1 time [min]: 3.893791145833333
+Epoch 2 time [min]: 3.891514583333333
+Epoch 3 time [min]: 3.8981132812499997
+Epoch 4 time [min]: 3.89370546875
+Epoch 5 time [min]: 3.8980721354166668
+Epoch 6 time [min]: 3.907479427083333
+Epoch 7 time [min]: 3.9036161458333334
+Epoch 8 time [min]: 3.8968617187500003
+Epoch 9 time [min]: 3.9008890625
+Epoch 10 time [min]: 3.9011859375
+Average epoch time is 3.8981933712121215
+
+============================= JOB FEEDBACK =============================
+
+Job ID: 2987280
+Cluster: hk
+User/Group: ke4365/hk-project-epais
+Account: hk-project-p0021348
+State: COMPLETED (exit code 0)
+Partition: accelerated
+Nodes: 1
+Cores per node: 152
+Nodelist: hkn0513
+CPU Utilized: 01:08:13
+CPU Efficiency: 0.98% of 4-19:33:44 core-walltime
+Job Wall-clock time: 00:45:37
+Starttime: Sat Mar 15 16:21:32 2025
+Endtime: Sat Mar 15 17:07:09 2025
+Memory Utilized: 48.07 GB
+Memory Efficiency: 0.00% of 0.00 MB
+Energy Consumed: 2213759 Joule / 614.933055555556 Watthours
+Average node power draw: 808.826817683595 Watt

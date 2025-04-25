@@ -1,0 +1,69 @@
+cp: target '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/fp32_noloading/6_16tflop/four/src' is not a directory
+Restoring modules from user's pangu, for system: "hk"
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/bin/python
+MASTER_ADDR=hkn0734
+GpuFreq=control_disabled
+Rank 1: world_size 4, slurm_localid 1
+Rank 2: world_size 4, slurm_localid 2
+Rank 3: world_size 4, slurm_localid 3
+Rank 0: world_size 4, slurm_localid 0
+Rank 2/4: Process group initialized with torch rank 2 and torch world size 4.
+Rank 3/4: Process group initialized with torch rank 3 and torch world size 4.
+Rank 1/4: Process group initialized with torch rank 1 and torch world size 4.
+Rank 0/4: Process group initialized with torch rank 0 and torch world size 4.
+Model parameters {'hidden_dim': 4896, 'spatial_hidden_dim_fraction': 0.5, 'features_hidden_dim_fraction': 1, 'mixing_blocks': 3, 'model_parallel': True, 'patch_size': 60, 'stride': 60, 'add': False, 'positional_encoding': False, 'patch_embed': 1, 'latent_rollout': 1, 'upt': False, 'concat': True, 'linear_residual': True, 'dropout': 0.001}
+Training subset size 500
+Reading from /hkfs/work/workspace/scratch/ke4365-era5_data/era5_subset.zarr
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/strong_scaling/one_billion/one/model_1.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/strong_scaling/one_billion/one/model_0.pt'
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/strong_scaling/one_billion/one/model_1.pt'
+Rank 1 running on CPU core: 122 Allocated GPU(s):, 0,1,2,3
+Rank 2 running on CPU core: 38 Allocated GPU(s):, 0,1,2,3
+Rank 3 running on CPU core: 123 Allocated GPU(s):, 0,1,2,3
+model has 1103.453424 million parameters
+Estimated forward TFLOPs and GB_COMM: 15.956386952904, 2.4571791887283325
+[Errno 2] No such file or directory: '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/strong_scaling/one_billion/one/model_0.pt'
+Initializing model from scratch
+Rank 0 running on CPU core: 40 Allocated GPU(s):, 0,1,2,3
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/lib64/python3.11/site-packages/torch/autograd/function.py:575: UserWarning: TORCH_NCCL_AVOID_RECORD_STREAMS=1 has no effect for point-to-point collectives. (Triggered internally at /pytorch/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:3436.)
+  return super().apply(*args, **kwargs)  # type: ignore[misc]
+Epoch 0 time [min]: 9.327541666666667
+Epoch 1 time [min]: 9.309801041666667
+Epoch 2 time [min]: 9.351111458333332
+Epoch 3 time [min]: 9.348929166666666
+Epoch 4 time [min]: 9.338440625
+Epoch 5 time [min]: 9.309252083333332
+Epoch 6 time [min]: 9.328098958333333
+Epoch 7 time [min]: 9.312048958333332
+Epoch 8 time [min]: 9.318771875000001
+Epoch 9 time [min]: 9.348761458333334
+Epoch 10 time [min]: 9.330866666666667
+Average epoch time is 9.329420359848482
+Std epoch time is 0.015137973948982551
+
+============================= JOB FEEDBACK =============================
+
+Job ID: 2994470
+Cluster: hk
+User/Group: ke4365/hk-project-epais
+Account: hk-project-p0021348
+State: COMPLETED (exit code 0)
+Partition: accelerated
+Nodes: 1
+Cores per node: 152
+Nodelist: hkn0734
+CPU Utilized: 07:49:11
+CPU Efficiency: 2.95% of 11-01:16:56 core-walltime
+Job Wall-clock time: 01:44:43
+Starttime: Tue Mar 18 14:05:12 2025
+Endtime: Tue Mar 18 15:49:55 2025
+Memory Utilized: 53.85 GB (estimated maximum)
+Memory Efficiency: 0.00% of 0.00 MB (0.00 MB/node)
+Energy Consumed: 8947530 Joule / 2485.425 Watthours
+Average node power draw: 1424.08562788477 Watt

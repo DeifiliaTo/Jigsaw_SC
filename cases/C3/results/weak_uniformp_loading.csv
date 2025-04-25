@@ -1,0 +1,4 @@
+processes,exp_one,exp_two,exp_four,megatron
+1,1,1,1,1
+2,1.07,0.99,0.99,0.95
+4,0.89,0.78,0.76,0.82

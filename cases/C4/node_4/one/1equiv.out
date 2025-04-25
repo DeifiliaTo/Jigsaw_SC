@@ -1,0 +1,80 @@
+cp: target '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/DDP/node_16/one/src' is not a directory
+Restoring modules from user's pangu, for system: "hk"
+/hkfs/work/workspace/scratch/ke4365-summa/.venv/bin/python
+MASTER_ADDR=hkn0404
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+GpuFreq=control_disabled
+Rank 6: world_size 16, slurm_localid 2
+Rank 5: world_size 16, slurm_localid 1
+Rank 7: world_size 16, slurm_localid 3
+Rank 4: world_size 16, slurm_localid 0
+Rank 13: world_size 16, slurm_localid 1
+Rank 14: world_size 16, slurm_localid 2
+Rank 15: world_size 16, slurm_localid 3
+Rank 12: world_size 16, slurm_localid 0
+Rank 8: world_size 16, slurm_localid 0
+Rank 9: world_size 16, slurm_localid 1
+Rank 10: world_size 16, slurm_localid 2
+Rank 11: world_size 16, slurm_localid 3
+Rank 0: world_size 16, slurm_localid 0
+Rank 1: world_size 16, slurm_localid 1
+Rank 2: world_size 16, slurm_localid 2
+Rank 3: world_size 16, slurm_localid 3
+Rank 8/16: Process group initialized with torch rank 8 and torch world size 16.
+Rank 12/16: Process group initialized with torch rank 12 and torch world size 16.
+Rank 3/16: Process group initialized with torch rank 3 and torch world size 16.
+Rank 2/16: Process group initialized with torch rank 2 and torch world size 16.
+Rank 1/16: Process group initialized with torch rank 1 and torch world size 16.
+Rank 15/16: Process group initialized with torch rank 15 and torch world size 16.
+Rank 9/16: Process group initialized with torch rank 9 and torch world size 16.
+Rank 13/16: Process group initialized with torch rank 13 and torch world size 16.
+Rank 14/16: Process group initialized with torch rank 14 and torch world size 16.
+Rank 10/16: Process group initialized with torch rank 10 and torch world size 16.
+Rank 11/16: Process group initialized with torch rank 11 and torch world size 16.
+Rank 6/16: Process group initialized with torch rank 6 and torch world size 16.
+Rank 7/16: Process group initialized with torch rank 7 and torch world size 16.
+Rank 5/16: Process group initialized with torch rank 5 and torch world size 16.
+Rank 4/16: Process group initialized with torch rank 4 and torch world size 16.
+Rank 0/16: Process group initialized with torch rank 0 and torch world size 16.
+Training parameters {'lr': 0.0001, 'lr_embedding': 2e-05, 'lr_recovery': 2e-05, 'loss': 'L2', 'lr_constant': False, 'train_batch': 1, 'valid_batch': 1, 'identity': False, 'grad_clip': 1, 'save_dir': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/equivalent_usage/larger_dataset/one', 'preload': False, 'file_path': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/equivalent_usage/larger_dataset/one', 'load_path': '/hkfs/work/workspace/scratch/ke4365-summa/experiments/scaling/equivalent_usage/larger_dataset/one/model_0.pt', 'area_weighted': True, 'print': False, 'tf32': True}
+Model parameters {'hidden_dim': 4320, 'spatial_hidden_dim_fraction': 0.5, 'features_hidden_dim_fraction': 1, 'mixing_blocks': 3, 'model_parallel': False, 'patch_size': 60, 'stride': 60, 'add': False, 'positional_encoding': False, 'patch_embed': 1, 'latent_rollout': 1, 'upt': False, 'concat': True, 'linear_residual': True, 'dropout': 0.001}
+Training subset size 1600
+Reading from /hkfs/work/workspace/scratch/ke4365-era5_data/era5_subset.zarr
+model has 1062.380154 million parameters
+Estimated forward TFLOPs and GB_COMM: 13.565698672392001, 2.2768832445144653
+Epoch 0 time [min]: 2.04279453125
+Epoch 1 time [min]: 1.7892997395833334
+Epoch 2 time [min]: 1.804743359375
+Epoch 3 time [min]: 1.7699229166666666
+Epoch 4 time [min]: 1.7590709635416668
+Epoch 5 time [min]: 1.7551731770833332
+Epoch 6 time [min]: 1.750065234375
+Epoch 7 time [min]: 1.7604225260416666
+Epoch 8 time [min]: 1.7613703125
+Epoch 9 time [min]: 1.749140625
+Epoch 10 time [min]: 1.7647313802083333
+Average epoch time is 1.7915213423295453
+Std epoch time is 0.08105404372615484
+
+============================= JOB FEEDBACK =============================
+
+Job ID: 2999698
+Cluster: hk
+User/Group: ke4365/hk-project-epais
+Account: hk-project-p0021348
+State: COMPLETED (exit code 0)
+Partition: accelerated
+Nodes: 4
+Cores per node: 152
+Nodelist: hkn[0404,0505,0524,0536]
+CPU Utilized: 1-06:16:40
+CPU Efficiency: 13.55% of 9-07:26:24 core-walltime
+Job Wall-clock time: 00:22:03
+Starttime: Wed Mar 19 19:52:05 2025
+Endtime: Wed Mar 19 20:14:08 2025
+Memory Utilized: 1.03 TB (estimated maximum)
+Memory Efficiency: 0.00% of 0.00 MB (0.00 MB/node)
+Energy Consumed: 6420441 Joule / 1783.45583333333 Watthours
+Average node power draw: 4852.9410430839 Watt
